@@ -331,7 +331,7 @@ Write a function called dice; it should randomize an integer number between 1 an
 
 function dice() {
 
-    return Math.floor(Math.random() * 7) + 1;
+    return Math.floor(Math.random() * 6) + 1;
 }
 
 console.log('EXERCISE 1', dice())
@@ -408,7 +408,6 @@ Ex.: onlyLetters("I have 4 dogs") => returns "I have dogs"
 function onlyLetters(str) {
 
     str = str.split('');
-    console.log(str)
     for (let i = 0; i < str.length; i++) {
         if (!isNaN(str[i]) && str[i] !== ' ') {
             str.splice(i, 1);
