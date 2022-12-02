@@ -334,7 +334,7 @@ function dice() {
     return Math.floor(Math.random() * 7) + 1;
 }
 
-console.log(dice())
+console.log('EXERCISE 1', dice())
 
 /* EXERCISE 2
 
@@ -357,7 +357,7 @@ function whoIsBigger(num1, num2) {
 
 }
 
-console.log(whoIsBigger(3, 7));
+console.log('EXERCISE 2 ', whoIsBigger(3, 7));
 
 /* EXERCISE 3
 
@@ -374,7 +374,7 @@ function splitMe(str) {
 
 }
 
-console.log(splitMe('This is my string'));
+console.log('EXERCISE 3 ', splitMe('This is my string'));
 
 /* EXERCISE 4
 
@@ -394,7 +394,7 @@ function deleteOne(str, bool) {
 }
 
 
-console.log(deleteOne('A simple string', true));
+console.log('EXERCISE 4 ', deleteOne('A simple string', true));
 
 /* EXERCISE 5
 
@@ -419,7 +419,7 @@ function onlyLetters(str) {
 
 }
 
-console.log(onlyLetters('2My te3st stri5ng'));
+console.log('EXERCISE 5 ', onlyLetters('2My te3st stri5ng'));
 
 /* EXERCISE 6
 
@@ -440,7 +440,7 @@ function isThisAnEmail2(mail) {
 }
 
 
-console.log(isThisAnEmail('erikondra@yahoo.com'));
+console.log('EXERCISE 6 ', isThisAnEmail('erikondra@yahoo.com'));
 
 /* EXERCISE 7
 
@@ -456,7 +456,7 @@ function whatDayIsIt() {
     return days[today.getDay()];
 }
 
-console.log(whatDayIsIt());
+console.log('EXERCISE 7 ', whatDayIsIt());
 
 /* EXERCISE 8
 
@@ -492,7 +492,7 @@ function rollTheDices(num) {
     return result
 }
 
-console.log(rollTheDices(5));
+console.log('EXERCISE 8 ', rollTheDices(5));
 
 /* EXERCISE 9
 
@@ -509,7 +509,7 @@ function howManyDays(aDate) {
     return Math.round(daysPast)
 }
 
-console.log(howManyDays('12/12/2021'));
+console.log('EXERCISE 9 ', howManyDays('12/12/2021'));
 
 /* EXERCISE 10
 
@@ -529,7 +529,7 @@ function isTodayMyBirthday(myBirthday) {
     return false
 
 }
-console.log(isTodayMyBirthday('12/03/2021'));
+console.log('EXERCISE 10 ', isTodayMyBirthday('12/03/2021'));
 
 // JS Arrays & Objects
 
@@ -554,7 +554,7 @@ function deleteProp(object, string) {
     }
 }
 
-console.log(deleteProp({
+console.log('EXERCISE 11', deleteProp({
 
     Title: "Lord of the Flies",
 
@@ -589,7 +589,7 @@ function oldestMovie() {
     return oldestMovie;
 }
 
-console.log(oldestMovie());
+console.log('EXERCISE 12 ', oldestMovie());
 
 /* EXERCISE 13
 
@@ -602,7 +602,7 @@ function countMovies() {
     return movies.length;
 }
 
-console.log(countMovies());
+console.log('EXERCISE 13 ', countMovies());
 
 /* EXERCISE 14
 
@@ -620,7 +620,7 @@ function onlyTheTitles() {
     return titles
 }
 
-console.log(onlyTheTitles());
+console.log('EXERCISE 14 ', onlyTheTitles());
 
 /* EXERCISE 15
 
@@ -642,7 +642,7 @@ function onlyInThisMillennium() {
 
 }
 
-console.log(onlyInThisMillennium());
+console.log('EXERCISE 15 ', onlyInThisMillennium());
 
 
 /* EXERCISE 16
@@ -661,7 +661,7 @@ function getMovieById(id) {
         }
     }
 }
-console.log(getMovieById('tt0100054'));
+console.log('EXERCISE 16 ', getMovieById('tt0100054'));
 
 
 /* EXERCISE 17
@@ -682,7 +682,7 @@ function sumAllTheYears() {
     return sum
 }
 
-console.log(sumAllTheYears())
+console.log('EXERCISE 17 ', sumAllTheYears())
 
 
 
@@ -706,7 +706,7 @@ function searchByTitle(str) {
     return fittingTitle;
 }
 
-console.log(searchByTitle('War'));
+console.log('EXERCISE 18 ', searchByTitle('War'));
 
 /* EXERCISE 19
 
@@ -736,7 +736,7 @@ function searchAndDivide(str) {
 
 }
 
-console.log(searchAndDivide('War'));
+console.log('EXERCISE 19 ', searchAndDivide('War'));
 
 /* EXERCISE 20
 
@@ -753,7 +753,7 @@ function removeIndex(index) {
 }
 
 
-console.log(removeIndex(2));
+console.log('EXERCISE 20 ', removeIndex(2));
 
 
 // [EXTRAS] JS Advanced
