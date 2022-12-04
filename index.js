@@ -746,7 +746,7 @@ Write a function called "removeIndex" which receives a number as a parameter and
 
 function removeIndex(index) {
 
-    let newMovieList = movies.slice();
+    let newMovieList = movies;
     newMovieList.splice(index, 1);
     return newMovieList;
 }
